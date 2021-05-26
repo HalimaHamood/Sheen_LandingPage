@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_equalizer</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="988" height="726" rx="2"></rect>
+        <filter x="-0.3%" y="-0.3%" width="100.6%" height="101.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.227354677 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Business" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Product-View-Add-Question" transform="translate(-883.000000, -1100.000000)">
+            <rect fill="#F7F8F9" x="0" y="0" width="1440" height="1848"></rect>
+            <g id="Group-3" transform="translate(-37.000000, 1058.000000)">
+                <g id="Rectangle" transform="translate(84.000000, 0.000000)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Group-2" transform="translate(0.000000, 32.000000)">
+                    <path d="M950,0.5 C950.966498,0.5 951.841498,0.891750844 952.474874,1.52512627 C953.108249,2.15850169 953.5,3.03350169 953.5,4 L953.5,4 L953.5,39 C953.5,39.9664983 953.108249,40.8414983 952.474874,41.4748737 C951.841498,42.1082492 950.966498,42.5 950,42.5 L950,42.5 L164,42.5 C163.033502,42.5 162.158502,42.1082492 161.525126,41.4748737 C160.891751,40.8414983 160.5,39.9664983 160.5,39 L160.5,39 L160.5,4 C160.5,3.03350169 160.891751,2.15850169 161.525126,1.52512627 C162.158502,0.891750844 163.033502,0.5 164,0.5 L164,0.5 Z" id="Combined-Shape" stroke="#E6E6E6" fill="#FFFFFF"></path>
+                    <g id="Icon-24px" transform="translate(920.000000, 10.000000)">
+                        <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                        <path d="M10,20 L14,20 L14,4 L10,4 L10,20 L10,20 Z M4,20 L8,20 L8,12 L4,12 L4,20 L4,20 Z M16,9 L16,20 L20,20 L20,9 L16,9 L16,9 Z" id="Shape" fill="#98A9BC"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
